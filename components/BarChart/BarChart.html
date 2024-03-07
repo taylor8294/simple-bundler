@@ -1,0 +1,19 @@
+<template id="template-title">
+    <div class="flex flex-row justify-start items-stretch bar-title-container">
+        <div class="flex flex-row justify-start items-stretch">
+            <div class="mx-2"><slot name="icon"><i>&nbsp;</i></slot></div>
+            <div class="flex-grow text-md bar-title"><slot name="title"></slot></div>
+        </div>
+    </div>
+</template>
+
+<template id="template-bar-line">
+    <div class="flex flex-row justify-center items-center bar-line-container">
+        <bar-line class="flex-grow w-full max-w-120"></bar-line>
+    </div>
+</template>
+
+<!-- <slot name="bar" class="hidden"></slot> -->
+
+<div class="gap-4" id="bar-chart">
+</div>

@@ -1,0 +1,9 @@
+#bar-chart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 896px) {
+    #bar-chart {
+        grid-template-columns: auto 1fr;
+    }
+}
