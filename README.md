@@ -37,7 +37,7 @@ You page should include a `<script type="module">` tag to the `/public/scripts/b
 You can add other JS files that you want directly into the `/public/scripts` folder (these will not be bundled).
 You can then either include them in your pages directly, or `import` them from code in the bundle.
 
-The `/postinstall.js` file is used to the `escodegen` dependency to support ESTree's `PropertyDefinition` object.
+The `/postinstall.js` file is used to patch the `escodegen` dependency to support ESTree's `PropertyDefinition` object.
 
 You can tweak the tailwind configuration settings in `/tailwind.config.js`.
 
